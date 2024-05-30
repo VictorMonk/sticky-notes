@@ -2,7 +2,7 @@
   "name": "sticky-notes",
   "version": "0.1.0",
   "private": true,
-  "website": "https://victormonk.github.io/sticky-notes",
+  "homepage": "https://victormonk.github.io/sticky-notes",
   "dependencies": {
     "@babel/preset-env": "^7.22.3",
     "@testing-library/jest-dom": "^5.17.0",
