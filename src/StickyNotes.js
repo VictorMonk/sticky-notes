@@ -1,39 +1,38 @@
-import React, { useState }  from 'react';
+import React, { useState } from 'react';
 
-const StickyNotes = ({ note, onDelete }) => {
+const StickyNotes = ({ note, onDelete, onSave }) => {
     const { id, title: initialTitle, content: initialContent, date: initialDate } = note;
 
-    //Edit Mode State
-const [editMode, setEditMode] = useState(false);
+    // Edit Mode State
+    const [editMode, setEditMode] = useState(false);
 
-//State for Title and Content
-const [title, setTitle] = useState(initialTitle);
-const [content, setContent] = useState(initialContent);
+    // State for Title and Content
+    const [title, setTitle] = useState(initialTitle);
+    const [content, setContent] = useState(initialContent);
 
-//Original State
-const [originalTitle, setOriginalTitle] = useState(initialTitle);
-const [originalContent, setOriginalContent] = useState(initialContent);
+    // Original State
+    const [originalTitle, setOriginalTitle] = useState(initialTitle);
+    const [originalContent, setOriginalContent] = useState(initialContent);
 
-//Set Edit Mode
-const handleEditClick = () => {
-    setEditMode(true);
-    setOriginalTitle(title);
-    setOriginalContent(content);
-}
+    // Set Edit Mode
+    const handleEditClick = () => {
+        setEditMode(true);
+        setOriginalTitle(title);
+        setOriginalContent(content);
+    };
 
-//Save Edited Changes
-const handleSaveClick = () => {
-    //functionality
-    setEditMode(false);
-};
+    // Save Edited Changes
+    const handleSaveClick = () => {
+        // Pass the updated note to the parent component
+        onSave(id, title, content);
+        setEditMode(false);
+    };
 
-const handleCancelClick = () => {
-    setTitle(originalTitle);
-    setContent(originalContent);
-
-    setEditMode(false);
-};
-
+    const handleCancelClick = () => {
+        setTitle(originalTitle);
+        setContent(originalContent);
+        setEditMode(false);
+    };
 
     return (
         <div className="flex justify-center w-full">
