@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Sticky Notes App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Demo: https://victormonk.github.io/sticky-notes/
 
-## Available Scripts
+This is a simple Sticky Notes application built with React and Tailwind CSS. It allows users to create, edit, and delete notes, with changes being stored locally using browser cache.
+Features
 
-In the project directory, you can run:
+    Add Note: Users can add new sticky notes by entering a title and content.
+    Delete Note: Notes can be deleted individually by clicking on the delete button.
+    Edit Note: Users can edit existing notes, with the option to save changes or cancel them.
 
-### `npm start`
+Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    React: A JavaScript library for building user interfaces.
+    Tailwind CSS: A utility-first CSS framework for quickly styling web applications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Getting Started
 
-### `npm test`
+To run the app locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    Clone this repository.
+    Install dependencies using npm install.
+    Start the development server with npm start.
+    Open http://localhost:3000 in your web browser to view the app.
 
-### `npm run build`
+Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    Enter a title and content for your note in the input fields provided.
+    Click the "Add Note" button to create a new sticky note.
+    To edit a note, click the "Edit Note" button on the note you want to edit. Make your changes, then click "Save Changes" to save or "Cancel Changes" to discard them.
+    To delete a note, click the "Delete Note" button on the note you want to remove.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE.md file for more details.
