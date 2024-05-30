@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/VictorMonk/sticky-notes/static/css/main.4c0f4cc0.css",
-    "main.js": "/VictorMonk/sticky-notes/static/js/main.f8cf99dc.js",
-    "static/js/453.91bbca51.chunk.js": "/VictorMonk/sticky-notes/static/js/453.91bbca51.chunk.js",
-    "index.html": "/VictorMonk/sticky-notes/index.html",
-    "main.4c0f4cc0.css.map": "/VictorMonk/sticky-notes/static/css/main.4c0f4cc0.css.map",
-    "main.f8cf99dc.js.map": "/VictorMonk/sticky-notes/static/js/main.f8cf99dc.js.map",
-    "453.91bbca51.chunk.js.map": "/VictorMonk/sticky-notes/static/js/453.91bbca51.chunk.js.map"
+    "main.css": "/sticky-notes/static/css/main.4c0f4cc0.css",
+    "main.js": "/sticky-notes/static/js/main.c0f0e15b.js",
+    "static/js/453.91bbca51.chunk.js": "/sticky-notes/static/js/453.91bbca51.chunk.js",
+    "index.html": "/sticky-notes/index.html",
+    "main.4c0f4cc0.css.map": "/sticky-notes/static/css/main.4c0f4cc0.css.map",
+    "main.c0f0e15b.js.map": "/sticky-notes/static/js/main.c0f0e15b.js.map",
+    "453.91bbca51.chunk.js.map": "/sticky-notes/static/js/453.91bbca51.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c0f4cc0.css",
-    "static/js/main.f8cf99dc.js"
+    "static/js/main.c0f0e15b.js"
   ]
 }
